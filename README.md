@@ -43,7 +43,7 @@ HTTP (HyperText Transfer Protocol) is the foundation of data communication on th
 
 # ━━━━ 🌐 What is HTTP? ━━━━
 
-> [!INFO]
+> [!IMPORTANT]
 > **HTTP** stands for **HyperText Transfer Protocol**.
 > - 🏗️ Stateless, application-layer protocol for distributed, collaborative, hypermedia information systems.
 > - 📦 Defines how messages are formatted and transmitted, and how web servers and browsers should respond to various requests.
@@ -93,15 +93,15 @@ HTTP (HyperText Transfer Protocol) is the foundation of data communication on th
 > - 👤 **Client**: Sends requests (browsers, mobile apps, API clients).
 > - 🖥️ **Server**: Processes requests and returns responses (web servers, API endpoints).
 
-![HTTP Client Server Architecture](./_images-http/client_server_request_response.png)
+![HTTP Client Server Architecture](./images/client_server_request_response.png)
 
-> [!INFO]
+> [!IMPORTANT]
 > **HTTP Request Structure**
 > - **Request Line**: Method, URL, HTTP version.
 > - **Headers**: Metadata (e.g., Content-Type, Authorization).
 > - **Body**: Data sent with POST, PUT, PATCH, etc.
 
-> [!INFO]
+> [!TIP]
 > **HTTP Response Structure**
 > - **Status Line**: HTTP version, status code, reason phrase.
 > - **Headers**: Metadata (e.g., Content-Type, Set-Cookie).
@@ -205,7 +205,7 @@ HTTP (HyperText Transfer Protocol) is the foundation of data communication on th
 > - **OAuth2** and **OpenID Connect** for delegated access.
 > - **JWT (JSON Web Tokens)** for stateless authentication.
 
-> [!INFO]
+> [!IMPORTANT]
 > **CORS (Cross-Origin Resource Sharing)**
 > - Controls resource sharing between different origins.
 > - Use restrictive CORS policies for security.
@@ -216,17 +216,17 @@ HTTP (HyperText Transfer Protocol) is the foundation of data communication on th
 
 # ━━━━ 🧩 Modern Use Cases: REST, GraphQL, and More ━━━━
 
-> [!INFO]
+> [!TIP]
 > **RESTful APIs**
 > - Use HTTP methods and status codes to build scalable APIs.
 > - Stateless, resource-oriented, cacheable.
 
-> [!INFO]
+> [!TIP]
 > **GraphQL**
 > - Flexible query language over HTTP.
 > - Allows clients to request exactly the data they need.
 
-> [!INFO]
+> [!TIP]
 > **WebSockets**
 > - For real-time, bidirectional communication (not HTTP, but often used alongside).
 
@@ -249,7 +249,7 @@ HTTP (HyperText Transfer Protocol) is the foundation of data communication on th
 
 # ━━━━ 🧰 Debugging & Developer Tools ━━━━
 
-> [!INFO]
+> [!IMPORTANT]
 > **Essential Tools:**
 > - 🕵️‍♂️ **Browser DevTools**: Inspect requests, responses, headers, and cookies.
 > - 🖥️ **cURL & HTTPie**: Command-line tools for making HTTP requests.
@@ -262,7 +262,7 @@ HTTP (HyperText Transfer Protocol) is the foundation of data communication on th
 
 # ━━━━ 🔗 Further Resources ━━━━
 
-> [!INFO]
+> [!TIP]
 > - [MDN Web Docs: HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP) 🌐
 > - [IETF HTTP Working Group](https://httpwg.org/) 📜
 > - [OWASP Secure Headers Project](https://owasp.org/www-project-secure-headers/) 🛡️
