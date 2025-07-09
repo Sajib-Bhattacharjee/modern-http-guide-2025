@@ -268,6 +268,7 @@ HTTP (HyperText Transfer Protocol) is the foundation of data communication on th
 > - [OWASP Secure Headers Project](https://owasp.org/www-project-secure-headers/) 🛡️
 > - [Google Web Fundamentals](https://web.dev/) 🚀
 > - [HTTP/3 Explained](https://http3-explained.haxx.se/en/) 📖
+> - [Status Code Cheatsheet](https://devhints.io/http-status)
 
 ---
 
